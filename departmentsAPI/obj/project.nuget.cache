@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Le/Ghil/CakT1y3K8o186Chq1oGDeRA941S1xnSg317wkseRkurzlaVoowSuNly5daK9uL6KmwQ0tAE6JRtGdg==",
+  "success": true,
+  "projectFilePath": "/Users/mateuszlaskowski/Projects/departmentsAPI/departmentsAPI/departmentsAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.18/microsoft.aspnetcore.jsonpatch.7.0.18.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.18/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.18.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.aspnetcore.openapi/7.0.18/microsoft.aspnetcore.openapi.7.0.18.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/mateuszlaskowski/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
