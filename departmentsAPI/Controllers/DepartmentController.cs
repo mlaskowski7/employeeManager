@@ -21,7 +21,7 @@ namespace departmentsAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            string query = @"select DepartmentID, DepartmentName from Department";
+            string query = @"select * from Department";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("EmployeeAppCon");
 
@@ -50,7 +50,7 @@ namespace departmentsAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Department department)
         {
-            string query = @"insert into Department (DepartmentName) values (@DepartmentName)";
+            string query = @"insert into Department (Name, GuardianID) values (@Name, @GuardianID)";
 
             string sqlDataSource = _configuration.GetConnectionString("EmployeeAppCon");
 
@@ -61,7 +61,8 @@ namespace departmentsAPI.Controllers
                     await myCon.OpenAsync();
                     using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
                     {
-                        myCommand.Parameters.AddWithValue("@DepartmentName", department.DepartmentName);
+                        myCommand.Parameters.AddWithValue("@Name", department.Name);
+                        myCommand.Parameters.AddWithValue("@GuardianID", department.GuardianID);
                         await myCommand.ExecuteNonQueryAsync();
                     }
                 }

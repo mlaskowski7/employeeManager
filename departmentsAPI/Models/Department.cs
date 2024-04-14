@@ -3,8 +3,9 @@ namespace departmentsAPI.Models
 {
 	public class Department
 	{
-		public int DepartmentId { get; set; }
-		public string DepartmentName { get; set; }
+		public int ID { get; set; }
+		public string Name { get; set; }
+		public int GuardianID { get; set; }
 
 	}
 }
